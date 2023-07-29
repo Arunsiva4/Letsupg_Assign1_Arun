@@ -1,0 +1,37 @@
+*{
+  background-color:cyan ;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.wrapper h1 {
+  text-align: center;
+  width: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: wrapper-spin infinite 20s linear;
+    }
+  }
+  
+@keyframes wrapper-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+
+  .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color:blue;
+    font-size: 20px;
+}
